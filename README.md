@@ -9,7 +9,7 @@ Donwload the latest exe [here](dist/bsw7_patch.exe). For client just place the e
 <table>
   <tr>
     <th style="text-align:center;">CLIENT</th>
-    <th style="text-align:center;">SERVER</th>
+    <th style="text-align:center;">SERVER(1.7.19)</th>
   </tr>
   <tr>
     <td style="text-align:center;"><img src=client.png alt="CLIENT" width="300px"></td>
