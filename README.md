@@ -12,8 +12,8 @@ Donwload the latest exe [here](dist/bsw7_patch.exe). For client just place the e
     <th style="text-align:center;">SERVER</th>
   </tr>
   <tr>
-    <td style="text-align:center;"><img src="client.png" alt="CLIENT" width="300px"></td>
-    <td style="text-align:center;"><img src="server.png" alt="SERVER" width="300px"></td>
+    <td style="text-align:center;"><img src=client.png alt="CLIENT" width="300px"></td>
+    <td style="text-align:center;"><img src=server.png alt="SERVER" width="300px"></td>
   </tr>
 </table>
 
