@@ -196,6 +196,11 @@ def main():
             cwd,
             ["api-ms-win-core-path-l1-1-0.dll", f"python{major}{minor}.dll"],
         )
+        server = os.path.join(cwd, "python.exe")
+        if server:
+            copy_files(dll_folder, cwd, ["python.exe"])
+            clean_up_folder(lib_folder)
+            os.makedirs(lib_folder)
 
         # Step 3: Extract the Python ZIP file into the lib folder
         libs_zip = os.path.join(dll_folder, f"python{major}{minor}.zip")
