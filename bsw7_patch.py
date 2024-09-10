@@ -196,7 +196,7 @@ def main():
             cwd,
             ["api-ms-win-core-path-l1-1-0.dll", f"python{major}{minor}.dll"],
         )
-        server = os.path.join(cwd, "python.exe")
+        server = os.path.exists(os.path.join(cwd, "python.exe"))
         if server:
             copy_files(dll_folder, cwd, ["python.exe"])
             clean_up_folder(lib_folder)

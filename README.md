@@ -1,7 +1,7 @@
 # BombSquad Windows 7 Patch
 
-This project provides a patch to make the latest version of **BombSquad** `CLIENT/SERVER` <sup>v***1.7.19 for server***</sup> work on Windows 7. The patch involves using a Python modification that enables compatibility with Windows 7. 
-
+This project provides a patch to make the latest version of **BombSquad** `CLIENT/SERVER` work on Windows 7. The patch involves using a Python modification that enables compatibility with Windows 7. 
+![showcase](resources/showcase.png)
 ## Installation Guide
 
 Donwload the latest exe [here](bsw7_patch.exe). For client just place the exe in the folder containing the games executable and for the server place the exe inside the `dist` folder. Then run the exe.
@@ -9,7 +9,7 @@ Donwload the latest exe [here](bsw7_patch.exe). For client just place the exe in
 <table>
   <tr>
     <th style="text-align:center;">CLIENT</th>
-    <th style="text-align:center;">SERVER(1.7.19)</th>
+    <th style="text-align:center;">SERVER</th>
   </tr>
   <tr>
     <td style="text-align:center;"><img src=resources/client.png alt="CLIENT" width="500px"></td>
