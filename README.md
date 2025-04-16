@@ -4,7 +4,7 @@ This project provides a patch to make the latest version of **BombSquad** `CLIEN
 ![showcase](resources/showcase.png)
 ## Installation Guide
 
-Donwload the latest exe [here](bsw7_patch.exe). For client just place the exe in the folder containing the games executable and for the server place the exe inside the `dist` folder. Then run the exe.
+Donwload the latest exe here [64bit](bsw7_patch64.exe)/[32bit](bsw7_patch32.exe). For client just place the exe in the folder containing the games executable and for the server place the exe inside the `dist` folder. Then run the exe.
 
 <table>
   <tr>
@@ -48,7 +48,7 @@ pyinstaller --onefile --icon=resources/bsw7.ico bsw7_patch.py
 - **BombSquad**: Special thanks to [efroemling](https://github.com/efroemling/ballistica) for developing BombSquad and making it available. You can find the ballistica (Bombsquad game engine) project [here](https://github.com/efroemling/ballistica).
 - **Python Patch for Windows 7**: Thanks to [adang1345](https://github.com/adang1345) for their work on making Python compatible with Windows 7. You can find their project [here](https://github.com/adang1345/PythonWin7).
 - **DLL Support**: Thanks to [kobilutil](https://github.com/kobilutil/api-ms-win-core-path-HACK) for originally creating the `api-ms-win-core-path-HACK` project, which was later forked and enhanced by [nalexandru](https://github.com/nalexandru/api-ms-win-core-path-HACK).
-- **Tester**: Thanks to discord user `@snobbish` 
+- **Tester**: Thanks to discord user `@snobbish` & `Muby(@m.a.h.gp)`
 
 ## License
 
