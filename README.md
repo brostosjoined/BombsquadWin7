@@ -17,7 +17,7 @@ Donwload the latest exe here [64bit](bsw7_patch64.exe)/[32bit](bsw7_patch32.exe)
   </tr>
 </table>
 
-## Building 
+## Building
 
 ### 1. Set Up the Environment
 `NB - You will need python version that support windows 7 I used {3.8.6}`
@@ -48,6 +48,7 @@ pyinstaller --onefile --icon=resources/bsw7.ico bsw7_patch.py
 - **BombSquad**: Special thanks to [efroemling](https://github.com/efroemling/ballistica) for developing BombSquad and making it available. You can find the ballistica (Bombsquad game engine) project [here](https://github.com/efroemling/ballistica).
 - **Python Patch for Windows 7**: Thanks to [adang1345](https://github.com/adang1345) for their work on making Python compatible with Windows 7. You can find their project [here](https://github.com/adang1345/PythonWin7).
 - **DLL Support**: Thanks to [kobilutil](https://github.com/kobilutil/api-ms-win-core-path-HACK) for originally creating the `api-ms-win-core-path-HACK` project, which was later forked and enhanced by [nalexandru](https://github.com/nalexandru/api-ms-win-core-path-HACK).
+- **Windows 7 API Extensions**: Thanks to [YuZhouRen86](https://github.com/YuZhouRen86/VxKex-NEXT) for maintaining and updating the original repo to support more apps and games since BombSquad v1.8 Upgraded Windows builds from VS2022 to VS2026 which dropped support for windows 7. 
 - **Tester**: Thanks to discord user `@snobbish` & `Muby(@m.a.h.gp)`
 
 ## License
